@@ -27,7 +27,7 @@ do
     Fluent:Notify({
         Title = "Notification",
         Content = "Thanks For Using 7LI_7HMEDYT Script",
-        SubContent = "SubContent", -- Optional
+        SubContent = "Join My Telegram Channel", -- Optional
         Duration = 20 -- Set to nil to make the notification not disappear
     })
 
@@ -191,11 +191,5 @@ InterfaceManager:BuildInterfaceSection(Tabs.Settings)
 SaveManager:BuildConfigSection(Tabs.Settings)
 
 Window:SelectTab(1)
-
-Fluent:Notify({
-    Title = "Fluent",
-    Content = "The script has been loaded.",
-    Duration = 8
-})
 
 SaveManager:LoadAutoloadConfig()
